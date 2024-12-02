@@ -7,7 +7,7 @@ from person import Person
 
 @pytest.fixture
 def person_valid():
-    return Person("Fede", "123", 50.0)
+    return Person('Fede', '123', 50.0)
 
 
 def test_transfer_money_deposit(monkeypatch, person_valid):

@@ -21,7 +21,7 @@ def test_login_with_incorrect_password_followed_by_correct(mock_input, capsys):
 
     output = capsys.readouterr().out
 
-    assert "Passwort falsch" in output
+    assert 'Passwort falsch' in output
     assert person.givenname == 'Inga'
 
 

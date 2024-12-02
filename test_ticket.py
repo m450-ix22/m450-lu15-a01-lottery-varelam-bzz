@@ -18,7 +18,7 @@ def test_ticket_joker_setter_valid():
 def test_ticket_joker_setter_invalid():
     ticket = Ticket(joker=123, numbers=[1, 2, 3, 4, 5, 6])
     with pytest.raises(ValueError):
-        ticket.joker = "invalid"
+        ticket.joker = 'invalid'
 
 
 def test_ticket_numbers_setter():

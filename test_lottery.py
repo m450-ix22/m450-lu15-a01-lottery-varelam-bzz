@@ -7,12 +7,12 @@ from ticket import Ticket
 
 @pytest.fixture
 def person_max():
-    return Person(givenname="Max", balance=1000.00, password="1234")
+    return Person(givenname='Max', balance=1000.00, password='1234')
 
 
 @pytest.fixture
 def person_tiago():
-    return Person(givenname="Tiago", balance=1.00, password="1234")
+    return Person(givenname='Tiago', balance=1.00, password='1234')
 
 
 @pytest.fixture
@@ -72,14 +72,14 @@ def test_print_ticket(ticket, capsys):
     output = capsys.readouterr().out
 
     expected_output = (
-        "   1   2   3   4   X   6\n"
-        "   7   8   9   X  11  12\n"
-        "  13  14   X  16  17  18\n"
-        "  19   X  21  22  23  24\n"
-        "   X  26  27  28  29   X\n"
-        "  31  32  33  34  35  36\n"
-        "  37  38  39  40  41\n\n"
-        "Jokerzahl:  3\n"
+        '   1   2   3   4   X   6\n'
+        '   7   8   9   X  11  12\n'
+        '  13  14   X  16  17  18\n'
+        '  19   X  21  22  23  24\n'
+        '   X  26  27  28  29   X\n'
+        '  31  32  33  34  35  36\n'
+        '  37  38  39  40  41\n\n'
+        'Jokerzahl:  3\n'
     )
 
     assert output == expected_output

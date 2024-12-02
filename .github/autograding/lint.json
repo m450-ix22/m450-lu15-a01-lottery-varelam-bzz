@@ -10,5 +10,8 @@
     "test_ticket.py"
   ],
   "ignore" : [],
-  "max": 10
+  "max": 10,
+  "messagesControl": {
+    "disable": ["C0114", "W0621"]
+  }
 }

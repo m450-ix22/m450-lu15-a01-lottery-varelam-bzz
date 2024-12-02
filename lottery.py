@@ -40,7 +40,7 @@ def print_ticket(ticket):
     """
     for count in range(1,42):
         if count in ticket.numbers:
-            print(f'{"X":>4}', end='')
+            print(f'{'X':>4}', end='')
         else:
             print(f'{count:4d}', end='')
         if count % 6 == 0:
