@@ -16,5 +16,191 @@
     "function": "test_main_ticket",
     "timeout": 10,
     "points": 1
+  },
+  {
+    "name": "test_login_with_correct_password",
+    "function": "test_login_with_correct_password",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_login_with_incorrect_password_followed_by_correct",
+    "function": "test_login_with_incorrect_password_followed_by_correct",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_load_people_returns_correct_list",
+    "function": "test_load_people_returns_correct_list",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_create_ticket_sufficient_bal",
+    "function": "test_create_ticket_sufficient_bal",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_create_ticket_insufficient_bal",
+    "function": "test_create_ticket_insufficient_bal",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_select_numbers_success",
+    "function": "test_select_numbers_success",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_select_numbers_dupe_number",
+    "function": "test_select_numbers_dupe_number",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_print_ticket",
+    "function": "test_print_ticket",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_show_menu",
+    "function": "test_show_menu",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_select_menu",
+    "function": "test_select_menu",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_transfer_money_deposit",
+    "function": "test_transfer_money_deposit",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_transfer_money_withdrawal",
+    "function": "test_transfer_money_withdrawal",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_transfer_money_invalid_balance",
+    "function": "test_transfer_money_invalid_balance",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_select_transaction",
+    "function": "test_select_transaction",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int_valid",
+    "function": "test_read_int_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int_too_small",
+    "function": "test_read_int_too_small",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int_too_large",
+    "function": "test_read_int_too_large",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int_invalid_type",
+    "function": "test_read_int_invalid_type",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_float_valid",
+    "function": "test_read_float_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_float_too_small",
+    "function": "test_read_float_too_small",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_float_too_large",
+    "function": "test_read_float_too_large",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_float_invalid_type",
+    "function": "test_read_float_invalid_type",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_person_initialization",
+    "function": "test_person_initialization",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_person_givenname_setter",
+    "function": "test_person_givenname_setter",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_person_password_setter",
+    "function": "test_person_password_setter",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_person_balance_setter_valid",
+    "function": "test_person_balance_setter_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_person_balance_setter_invalid",
+    "function": "test_person_balance_setter_invalid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_ticket_initialization",
+    "function": "test_ticket_initialization",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_ticket_joker_setter_valid",
+    "function": "test_ticket_joker_setter_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_ticket_joker_setter_invalid",
+    "function": "test_ticket_joker_setter_invalid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_ticket_numbers_setter",
+    "function": "test_ticket_numbers_setter",
+    "timeout": 10,
+    "points": 1
   }
 ]
